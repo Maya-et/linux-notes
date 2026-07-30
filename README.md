@@ -57,8 +57,18 @@ USER TOOLS
 6.strings
 
 
+
 ## Task 2: File Practice
 
-- Created `zxc.txt` with a short paragraph
-- Counted word occurrences with `grep -oi`
-- Counted total words with `wc -w`
+1. **Created `zxc.txt` using `nano`:**
+   ```bash
+   nano zxc.txt
+ Counted occurrences of "hello" (case-sensitive):
+  grep -o "hello" zxc.txt | wc -l
+  Result: 1
+  Counted occurrences of "hello" (case-insensitive):
+  grep -o -i "hello" zxc.txt | wc -l
+  Result: 3
+  Counted total words with `wc -w`
+  wc -w zxc.txt
+  Result: 27
