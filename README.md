@@ -46,23 +46,27 @@ insted of downloading a pre compiled package file script installation download t
 - `rm` — (Remove): Deletes files permanently.
 - `echo` — (Print Text) display line of text or write text directly into file when paired with redirect ( > )
 - `nano` — (Text Editor) Opens a simple, terminal-based text editor used to write or modify plain text files.
+
 Package Managers: apt vs pacman
-Overview & Definition
+
+            Overview & Definition
 A Package Manager is a tool in Linux that automates installing, updating, configuring, and removing software. Instead of downloading setup files from websites (like .exe files in Windows), Linux package managers fetch software directly from trusted online software collections called repositories.
 
-apt (Advanced Package Tool)
+            1. apt (Advanced Package Tool)
 Linux Distributions: Used by Debian, Ubuntu, Kali Linux, Linux Mint, and their derivatives.
 
 File Format: Uses .deb packages.
 
 Characteristics: Prioritizes stability. Software in apt repositories is thoroughly tested before release, though packages may be slightly older versions.
-2. pacman (Package Manager Utility)
+
+       2. pacman (Package Manager Utility)
 
 Linux Distributions: Used by Arch Linux, Manjaro, EndeavourOS, and their derivatives.
 
 File Format: Uses .pkg.tar.zst packages.
 
 Characteristics: Fast and designed for "Rolling Release" systems. Arch Linux users get the latest software updates immediately upon release, making pacman cutting-edge.
+
 MASTERING THE POWER
 USER TOOLS 
 1.sudo 
