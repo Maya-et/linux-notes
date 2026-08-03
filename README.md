@@ -67,6 +67,9 @@ File Format: Uses .pkg.tar.zst packages.
 
 Characteristics: Fast and designed for "Rolling Release" systems. Arch Linux users get the latest software updates immediately upon release, making pacman cutting-edge.
 
+        summary 
+  "Both apt and pacman are package managers used to install, update, and manage software in Linux. apt is standard on Debian-based systems like Kali Linux and Ubuntu, using plain-English commands like apt install. pacman is used on Arch Linux systems, focusing on bleeding-edge software updates using concise command flags like pacman -S."
+  
 MASTERING THE POWER
 USER TOOLS 
 1.sudo 
